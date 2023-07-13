@@ -145,6 +145,16 @@ a {
     #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (min-width: 1624px) {
+  .header {
+    margin-top: 3vh;
+    margin-block-end: 1vh;
+  }
+  .container {
+    margin-block-start: 2vh;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     width: calc(90% - 34px);
